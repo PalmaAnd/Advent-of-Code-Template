@@ -11,8 +11,8 @@ mkdir -p "./test"
 for day in {01..25}; do
     # Create a folder for the day
     day_folder="${day}_Day"
-    base_src="${main_dir}/${day_folder}";
-    base_test="${main_dir}/${day_folder}";
+    base_src="${main_dir}/src/${day_folder}";
+    base_test="${main_dir}/test/${day_folder}";
 
     mkdir -p "${base_src}"
     mkdir -p "${base_test}"
