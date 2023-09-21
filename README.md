@@ -30,7 +30,7 @@ chmod +x ./scripts/setupProject.sh
 4. After running the script, you will find a folder structure like this in the project directory:
 
 ```
-advent-of-code-2023/
+advent-of-code-2023/ <--- the year is depending on your setup
 ├── day01/
 │   ├── src/
 │   │   ├── input/
